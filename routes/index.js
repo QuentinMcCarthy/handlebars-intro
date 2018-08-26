@@ -2,6 +2,6 @@ const express = require("express");
 
 const router = express.Router();
 
-router.get(`/`, (req,res) => res.end(`Home routed.`));
+router.get(`/`, (req,res) => res.end(`/`));
 
 module.exports = router;
