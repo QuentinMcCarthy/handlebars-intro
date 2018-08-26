@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"dev:server": "nodemon -L index.js"
+    "dev:server": "nodemon -L index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/QuentinMcCarthy/handlebars-intro/issues"
   },
-  "homepage": "https://github.com/QuentinMcCarthy/handlebars-intro#readme"
+  "homepage": "https://github.com/QuentinMcCarthy/handlebars-intro#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
 }
