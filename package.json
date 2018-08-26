@@ -1,0 +1,24 @@
+{
+  "name": "handlebars-intro",
+  "version": "0.0.1",
+  "description": "Introduction to handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev:server": "nodemon -L index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinMcCarthy/handlebars-intro.git"
+  },
+  "keywords": [
+    "handlebars",
+    "node"
+  ],
+  "author": "Quentin McCarthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinMcCarthy/handlebars-intro/issues"
+  },
+  "homepage": "https://github.com/QuentinMcCarthy/handlebars-intro#readme"
+}
